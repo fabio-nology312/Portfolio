@@ -1,0 +1,173 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#EA7E6A, #44789F, #2B86C5);
+    font-family: 'Play', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 200;
+
+}
+
+a{
+    color: white;
+    text-decoration: none; 
+
+}
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid white;
+}
+
+main {
+
+min-height: 300px;
+display: flex;
+align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+}
+
+.card1 {
+    background-image: url(https://blog.boot.dev/img/800/HTML-vs-CSS-vs-JavaScript-min.webp);
+    background-size: cover;
+    min-height: 240px;
+    width: 30%;
+    
+    
+}
+
+.card2 {
+    background-image: url(https://www.techslang.com/wp-content/uploads/2020/07/Canva-Data-cloud-in-the-hand-.-1024x536.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 240px;
+    width: 30%;
+}
+
+.card3 {
+    background-image: url(https://www.lucidsystems.co.uk/portal/web/978/content/images/cybersecurity/Cybersecurity.jpg);
+    background-size: cover;
+    min-height: 240px;
+    width: 30%;
+
+}
+
+
+.name1{
+    font-size: 3.25rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Play', sans-serif;
+    margin-bottom: 2.5rem;
+    
+}
+
+h1 {
+    font-size: 3.25rem;
+    color: black;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: rgb(252, 129, 177);
+    font-family: 'Play', sans-serif;
+    vertical-align: top;
+    text-align: center;
+
+}
+
+p {
+    font-size: 1.75rem;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 2.5rem;
+
+}
+
+
+
+.herobox1 {
+    
+    flex: 2;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 100px;
+
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.herobox2 {
+    
+    flex: 2;
+
+}
+
+.cards i {
+    font-size: 100px;
+}
+
+
+
+.mybutton {
+    background-color: white;
+    color: #EA7E6A;
+    font-family: 'Play', sans-serif; 
+    padding: 11px 25px;
+    border-radius: 1000px;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+
+.mybutton:hover {
+background-color: rgb(127, 255, 148);
+transition-duration: 1s;
+
+}
+
+ a.mybutton {
+display: inline-block;
+margin-top: 5px;
+
+}
+
+nav a.mybutton {
+    margin-left: 30px;
+}
+
+
+.herobox2 img {
+    border-radius: 12px;
+}
+
+img {
+    padding: 30px;
+
+}
